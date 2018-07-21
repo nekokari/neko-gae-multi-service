@@ -1,0 +1,8 @@
+runtime: php55
+api_version: 1
+service: php-service
+threadsafe: yes
+
+handlers:
+- url: .*
+  script: main.php
