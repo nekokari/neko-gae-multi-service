@@ -1,3 +1,6 @@
 dispatch:
   - url: "*neko-gae-multi-service.appspot.com/php"
     service: php-service
+
+  - url: "*neko-daisuki.site/*"
+    service: multi-domain-service
